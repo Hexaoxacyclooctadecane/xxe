@@ -1,6 +1,6 @@
 {
-  "name": "vlessheroku",
-  "description": "Deploy vless on Heroku.",
+  "name": "xxe",
+  "description": "Deploy xx3 on Heroku.",
   "keywords": [
     "vless"
   ],
@@ -10,7 +10,7 @@
       "value": "3a53a3e5-da83-48d2-aee9-d88a498eb3dd"
     }
   },
-  "website": "https://github.com/GeekNAUer/",
-  "repository": "https://github.com/GeekNAUer/vlessheroku",
+  "website": "xxe",
+  "repository": "xxe",
   "stack": "container"
 }
