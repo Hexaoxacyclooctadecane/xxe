@@ -33,7 +33,7 @@ cat << EOF > /usr/local/etc/v2ray/config.json
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/app-vless-00cdc105-0058-4107-b72f-86cf9ec69900"
+          "path": "/xxe-edtaedta-6666-8888-0000-edtaedtaedta"
         }
       }
     }
