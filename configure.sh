@@ -14,35 +14,32 @@ rm -rf /tmp/v2ray
 install -d /usr/local/etc/v2ray
 cat << EOF > /usr/local/etc/v2ray/config.json
 {
-  "log": {
-    "loglevel": "none"
-  },
-  "inbounds": [
-    {
-      "port": $PORT,
-      "protocol": "VLESS",
-      "settings": {
-        "clients": [
-          {
-            "id": "$UUID",
-            "alterId": 0
-          }
-        ],
-        "decryption": "none"
-      },
-      "streamSettings": {
-        "network": "ws",
-        "wsSettings": {
-          "path": "/xxe-edtaedta-6666-8888-0000-edtaedtaedta"
+    "inbounds": [
+        {
+            "port": $PORT,
+            "protocol": "vless",
+            "settings": {
+                "clients": [
+                    {
+                        "id": "$ID", 
+                        "flow": "xtls-rprx-direct",
+                        "level": 0,
+                        "email": "love@v2fly.org"
+                    }
+                ],
+                "decryption": "none"
+            },
+            "streamSettings": {
+                "network": "ws"
+                "path": "/dicks"
+            }
         }
-      }
-    }
-  ],
-  "outbounds": [
-    {
-      "protocol": "freedom"
-    }
-  ]
+    ],
+    "outbounds": [
+        {
+            "protocol": "freedom"
+        }
+    ]
 }
 EOF
 

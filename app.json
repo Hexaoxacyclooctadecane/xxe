@@ -1,16 +1,14 @@
 {
-  "name": "xxe",
-  "description": "Deploy xx3 on Heroku.",
-  "keywords": [
-    "vless"
-  ],
-  "env": {
-    "UUID": {
-      "description": "VLESS UUID",
-      "value": "3a53a3e5-da83-48d2-aee9-d88a498eb3dd"
-    }
-  },
-  "website": "xxe",
-  "repository": "xxe",
-  "stack": "container"
+    "name": "t-BuLi",
+    "description": "t-BuLi",
+    "keywords": ["t-BuLi"],
+    "env": {
+        "UUID": {
+            "description": "t-BuLi",
+            "value": "<--Please Enter UUID!-->"
+        }
+    },
+    "website": "t-BuLi",
+    "repository": "t-BuLi",
+    "stack": "container"
 }
